@@ -37,7 +37,7 @@ namespace Hackathon_Project_GUI
             // 
             // ugasiMuzikuButton
             // 
-            this.ugasiMuzikuButton.BackColor = System.Drawing.Color.Salmon;
+            this.ugasiMuzikuButton.BackColor = System.Drawing.Color.LawnGreen;
             this.ugasiMuzikuButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ugasiMuzikuButton.Location = new System.Drawing.Point(120, 40);
             this.ugasiMuzikuButton.Name = "ugasiMuzikuButton";
@@ -89,6 +89,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.ugasiMuzikuButton);
             this.Name = "settingsForm";
             this.Text = "settingsForm";
+            this.Load += new System.EventHandler(this.settingsForm_Load);
             this.ResumeLayout(false);
 
         }
