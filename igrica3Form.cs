@@ -10,12 +10,11 @@ using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class PocetnaFormaMeni : Form
+    public partial class igrica3Form : Form
     {
-        public PocetnaFormaMeni()
+        public igrica3Form()
         {
             InitializeComponent();
         }
-
     }
 }

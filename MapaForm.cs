@@ -3,19 +3,21 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class PocetnaFormaMeni : Form
+    public partial class MapaForm : Form
     {
-        public PocetnaFormaMeni()
+        public MapaForm()
         {
             InitializeComponent();
         }
 
+        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+            
+        }
     }
 }
