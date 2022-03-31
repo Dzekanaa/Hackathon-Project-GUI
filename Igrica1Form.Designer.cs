@@ -275,6 +275,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.objekat3);
             this.Controls.Add(this.objekat2);
             this.Controls.Add(this.objekat);
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "igrica1Form";
             this.Text = "Igrica1Form";
             ((System.ComponentModel.ISupportInitialize)(this.objekat)).EndInit();
