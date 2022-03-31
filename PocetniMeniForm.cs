@@ -17,7 +17,7 @@ using System.Diagnostics;
 namespace Hackathon_Project_GUI
 {
 
-    public partial class PocetniMeniForm : Form
+    public partial class PocetniMeniForm : settingsForm
     {
         public PocetniMeniForm()
         {
@@ -27,8 +27,6 @@ namespace Hackathon_Project_GUI
             player.Play();*/
             
             InitializeComponent();
-
-            
 
             Assembly assembly;
             Stream soundStream;

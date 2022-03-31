@@ -94,6 +94,7 @@ namespace Hackathon_Project_GUI
             this.pictureBox63 = new System.Windows.Forms.PictureBox();
             this.pictureBox64 = new System.Windows.Forms.PictureBox();
             this.pictureBox65 = new System.Windows.Forms.PictureBox();
+            this.nazadButon = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -869,12 +870,23 @@ namespace Hackathon_Project_GUI
             this.pictureBox65.TabStop = false;
             this.pictureBox65.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
             // 
+            // nazadButon
+            // 
+            this.nazadButon.Location = new System.Drawing.Point(13, 558);
+            this.nazadButon.Name = "nazadButon";
+            this.nazadButon.Size = new System.Drawing.Size(75, 23);
+            this.nazadButon.TabIndex = 66;
+            this.nazadButon.Text = "nazad";
+            this.nazadButon.UseVisualStyleBackColor = true;
+            this.nazadButon.Click += new System.EventHandler(this.nazadButon_Click);
+            // 
             // igrica2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(645, 593);
+            this.Controls.Add(this.nazadButon);
             this.Controls.Add(this.pictureBox65);
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
@@ -1084,6 +1096,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox pictureBox65;
 
         private System.Windows.Forms.Button nazadButton;
-
+        private System.Windows.Forms.Button nazadButon;
     }
 }
