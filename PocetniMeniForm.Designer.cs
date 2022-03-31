@@ -1,7 +1,7 @@
 ﻿
 namespace Hackathon_Project_GUI
 {
-    partial class PocetnaFormaMeni
+    partial class PocetniMeniForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -47,6 +47,7 @@ namespace Hackathon_Project_GUI
             this.settingsButton.TabIndex = 0;
             this.settingsButton.Text = "settings";
             this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
             // emergencyButton
             // 
@@ -65,6 +66,7 @@ namespace Hackathon_Project_GUI
             this.igriceButton.TabIndex = 2;
             this.igriceButton.Text = "igrice";
             this.igriceButton.UseVisualStyleBackColor = true;
+            this.igriceButton.Click += new System.EventHandler(this.igriceButton_Click);
             // 
             // mestaButton
             // 
@@ -98,7 +100,7 @@ namespace Hackathon_Project_GUI
             this.lokacijeButton.Text = "lokacije";
             this.lokacijeButton.UseVisualStyleBackColor = true;
             // 
-            // PocetnaFormaMeni
+            // PocetniMeniForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -110,7 +112,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
-            this.Name = "PocetnaFormaMeni";
+            this.Name = "PocetniMeniForm";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.PocetnaFormaMeni_Load);
             this.ResumeLayout(false);
