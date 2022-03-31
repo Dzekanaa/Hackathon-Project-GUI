@@ -20,7 +20,7 @@ namespace Hackathon_Project_GUI
     {
         System.Media.SoundPlayer sp = new System.Media.SoundPlayer();
 
-        
+        public string muzika= "Hackathon_Project_GUI.muzika2.wav";
         
         public settingsForm()
         {
@@ -40,15 +40,7 @@ namespace Hackathon_Project_GUI
             {
                 ugasiMuzikuButton.Text = "Ugasi muziku";
                 ugasiMuzikuButton.BackColor = Color.Salmon;
-                Assembly assembly;
-                Stream soundStream;
-                SoundPlayer sp;
-                assembly = Assembly.GetExecutingAssembly();
-                sp = new SoundPlayer(assembly.GetManifestResourceStream
-                    ("Hackathon_Project_GUI.muzikaZaHackathon.wav")); // uzima muziku iz resorsa iz adrese
-                sp.Play();
-
-                sp.PlayLooping();
+                pustiPesmu();
             }
 
         }
@@ -60,6 +52,7 @@ namespace Hackathon_Project_GUI
                 this.Hide(); // sakriva ovu formu
                 PocetniMeniForm pocetniMeni = new PocetniMeniForm(); // kreira novu formu sa meni igricama
                 pocetniMeni.Show(); // pokazuje formu - igriceMeniForma
+
             }
             else
             {
@@ -70,14 +63,29 @@ namespace Hackathon_Project_GUI
             }
         }
 
-        private void menjanjeVrednostiTrackBaraZaPojacavanje()
+        private void muzika1Button_Click(object sender, EventArgs e)
         {
-
+            muzika = "Hackathon_Project_GUI.muzika2.wav";
+            pustiPesmu();
         }
 
-        private void pojacavanjeTrackBar_Scroll(object sender, EventArgs e)
+         private void muzika2button_Click(object sender, EventArgs e)
         {
+            muzika = "Hackathon_Project_GUI.muzikaZaHackathon.wav";
+            pustiPesmu();
+        }
+        
+        public void pustiPesmu() 
+        {
+            Assembly assembly;
+            Stream soundStream;
+            SoundPlayer sp;
+            assembly = Assembly.GetExecutingAssembly();
+            sp = new SoundPlayer(assembly.GetManifestResourceStream
+                (muzika)); // uzima muziku iz resorsa iz adrese
+            sp.Play();
 
+            sp.PlayLooping();
         }
     }
 }

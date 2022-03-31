@@ -37,12 +37,13 @@ namespace Hackathon_Project_GUI
         {
             MessageBox.Show("Dodirnuli ste zid! Pokusajte ponovo!");
 
-        private void nazadButton_Click(object sender, EventArgs e)
-        {
-            this.Hide(); // sakriva ovu formu
-            igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
-            igriceMeni.Show(); // pokazuje formu - igriceMeniForma
+            void nazadButton_Click(object sender, EventArgs e)
+            {
+                this.Hide(); // sakriva ovu formu
+                igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+                igriceMeni.Show(); // pokazuje formu - igriceMeniForma
 
+            }
         }
     }
 }
