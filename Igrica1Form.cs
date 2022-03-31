@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class igriceMeniForma : Form
+    public partial class Igrica1Form : Form
     {
-        public igriceMeniForma()
+        public Igrica1Form()
         {
             InitializeComponent();
         }
