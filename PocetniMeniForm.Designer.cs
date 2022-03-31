@@ -60,7 +60,7 @@ namespace Hackathon_Project_GUI
             // 
             // igriceButton
             // 
-            this.igriceButton.Location = new System.Drawing.Point(135, 575);
+            this.igriceButton.Location = new System.Drawing.Point(135, 454);
             this.igriceButton.Name = "igriceButton";
             this.igriceButton.Size = new System.Drawing.Size(180, 180);
             this.igriceButton.TabIndex = 2;
@@ -76,7 +76,7 @@ namespace Hackathon_Project_GUI
             this.mestaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mestaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mestaButton.ForeColor = System.Drawing.Color.Transparent;
-            this.mestaButton.Location = new System.Drawing.Point(135, 305);
+            this.mestaButton.Location = new System.Drawing.Point(135, 222);
             this.mestaButton.Name = "mestaButton";
             this.mestaButton.Size = new System.Drawing.Size(180, 180);
             this.mestaButton.TabIndex = 3;
@@ -84,7 +84,7 @@ namespace Hackathon_Project_GUI
             // 
             // pomocButton
             // 
-            this.pomocButton.Location = new System.Drawing.Point(405, 305);
+            this.pomocButton.Location = new System.Drawing.Point(405, 222);
             this.pomocButton.Name = "pomocButton";
             this.pomocButton.Size = new System.Drawing.Size(180, 180);
             this.pomocButton.TabIndex = 4;
@@ -93,7 +93,7 @@ namespace Hackathon_Project_GUI
             // 
             // lokacijeButton
             // 
-            this.lokacijeButton.Location = new System.Drawing.Point(405, 575);
+            this.lokacijeButton.Location = new System.Drawing.Point(405, 454);
             this.lokacijeButton.Name = "lokacijeButton";
             this.lokacijeButton.Size = new System.Drawing.Size(180, 180);
             this.lokacijeButton.TabIndex = 5;
@@ -106,7 +106,7 @@ namespace Hackathon_Project_GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(724, 941);
+            this.ClientSize = new System.Drawing.Size(724, 646);
             this.Controls.Add(this.lokacijeButton);
             this.Controls.Add(this.pomocButton);
             this.Controls.Add(this.mestaButton);
