@@ -8,11 +8,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="A-One-Way-Ticket-Too-Much_MP3_320K_.wav" />
+    <None Remove="muzika2.wav" />
     <None Remove="muzikaZaHackathon.wav" />
     <None Remove="Resources\Frankie_MP3_320K_.wav" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="muzika2.wav" />
     <EmbeddedResource Include="muzikaZaHackathon.wav" />
   </ItemGroup>
 

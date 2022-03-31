@@ -881,8 +881,6 @@ namespace Hackathon_Project_GUI
             this.nazadButton.TabIndex = 62;
             this.nazadButton.Text = "nazad";
             this.nazadButton.UseVisualStyleBackColor = true;
-            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
-
             // 
             // igrica2Form
             // 
