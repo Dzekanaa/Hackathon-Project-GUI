@@ -47,6 +47,7 @@ namespace Hackathon_Project_GUI
             this.settingsButton.TabIndex = 0;
             this.settingsButton.Text = "settings";
             this.settingsButton.UseVisualStyleBackColor = true;
+            this.settingsButton.Click += new System.EventHandler(this.settingsButton_Click);
             // 
             // emergencyButton
             // 
