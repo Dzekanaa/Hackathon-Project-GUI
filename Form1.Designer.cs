@@ -1,7 +1,7 @@
 ﻿
 namespace Hackathon_Project_GUI
 {
-    partial class Form1
+    partial class PocetnaFormaMeni
     {
         /// <summary>
         ///  Required designer variable.
@@ -63,7 +63,7 @@ namespace Hackathon_Project_GUI
             this.igriceButton.Text = "igrice";
             this.igriceButton.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // PocetnaFormaMeni
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -72,7 +72,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
-            this.Name = "Form1";
+            this.Name = "PocetnaFormaMeni";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
