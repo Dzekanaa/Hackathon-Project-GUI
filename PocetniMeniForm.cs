@@ -21,9 +21,11 @@ namespace Hackathon_Project_GUI
 
             InitializeComponent();
 
+            /*System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
+
             sp.PlayLooping();
 
-            sp.Play();
+            sp.Play();*/
         }
 
         private void igriceButton_Click(object sender, EventArgs e)
