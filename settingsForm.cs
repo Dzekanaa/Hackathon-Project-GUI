@@ -10,12 +10,17 @@ using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class Form1 : Form
+    public partial class settingsForm : Form
     {
-        public Form1()
+        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
+        public settingsForm()
         {
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            sp.Stop();
+        }
     }
 }
