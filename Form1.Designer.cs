@@ -34,41 +34,74 @@ namespace Hackathon_Project_GUI
             this.settingsButton = new System.Windows.Forms.Button();
             this.emergencyButton = new System.Windows.Forms.Button();
             this.igriceButton = new System.Windows.Forms.Button();
+            this.mestaButton = new System.Windows.Forms.Button();
+            this.pomocButton = new System.Windows.Forms.Button();
+            this.lokacijeButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // settingsButton
             // 
-            this.settingsButton.Location = new System.Drawing.Point(522, 12);
+            this.settingsButton.Location = new System.Drawing.Point(650, 10);
             this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(53, 39);
+            this.settingsButton.Size = new System.Drawing.Size(60, 60);
             this.settingsButton.TabIndex = 0;
             this.settingsButton.Text = "settings";
             this.settingsButton.UseVisualStyleBackColor = true;
             // 
             // emergencyButton
             // 
-            this.emergencyButton.Location = new System.Drawing.Point(438, 12);
+            this.emergencyButton.Location = new System.Drawing.Point(650, 80);
             this.emergencyButton.Name = "emergencyButton";
-            this.emergencyButton.Size = new System.Drawing.Size(68, 39);
+            this.emergencyButton.Size = new System.Drawing.Size(60, 60);
             this.emergencyButton.TabIndex = 1;
             this.emergencyButton.Text = "emergency";
             this.emergencyButton.UseVisualStyleBackColor = true;
             // 
             // igriceButton
             // 
-            this.igriceButton.Location = new System.Drawing.Point(108, 351);
+            this.igriceButton.Location = new System.Drawing.Point(135, 575);
             this.igriceButton.Name = "igriceButton";
-            this.igriceButton.Size = new System.Drawing.Size(97, 111);
+            this.igriceButton.Size = new System.Drawing.Size(180, 180);
             this.igriceButton.TabIndex = 2;
             this.igriceButton.Text = "igrice";
             this.igriceButton.UseVisualStyleBackColor = true;
+            // 
+            // mestaButton
+            // 
+            this.mestaButton.Location = new System.Drawing.Point(135, 305);
+            this.mestaButton.Name = "mestaButton";
+            this.mestaButton.Size = new System.Drawing.Size(180, 180);
+            this.mestaButton.TabIndex = 3;
+            this.mestaButton.Text = "mesta";
+            this.mestaButton.UseVisualStyleBackColor = true;
+            // 
+            // pomocButton
+            // 
+            this.pomocButton.Location = new System.Drawing.Point(405, 305);
+            this.pomocButton.Name = "pomocButton";
+            this.pomocButton.Size = new System.Drawing.Size(180, 180);
+            this.pomocButton.TabIndex = 4;
+            this.pomocButton.Text = "pomoc";
+            this.pomocButton.UseVisualStyleBackColor = true;
+            // 
+            // lokacijeButton
+            // 
+            this.lokacijeButton.Location = new System.Drawing.Point(405, 575);
+            this.lokacijeButton.Name = "lokacijeButton";
+            this.lokacijeButton.Size = new System.Drawing.Size(180, 180);
+            this.lokacijeButton.TabIndex = 5;
+            this.lokacijeButton.Text = "lokacije";
+            this.lokacijeButton.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(587, 500);
+            this.ClientSize = new System.Drawing.Size(724, 1041);
+            this.Controls.Add(this.lokacijeButton);
+            this.Controls.Add(this.pomocButton);
+            this.Controls.Add(this.mestaButton);
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
@@ -83,6 +116,9 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.Button settingsButton;
         private System.Windows.Forms.Button emergencyButton;
         private System.Windows.Forms.Button igriceButton;
+        private System.Windows.Forms.Button mestaButton;
+        private System.Windows.Forms.Button pomocButton;
+        private System.Windows.Forms.Button lokacijeButton;
     }
 }
 
