@@ -294,6 +294,7 @@ namespace Hackathon_Project_GUI
             {
                 tacno++;
             }
+
             if (tacno == 12)
             {
                 MessageBox.Show("Pogodili ste sve! Kraj igre!");

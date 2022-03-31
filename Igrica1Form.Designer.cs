@@ -156,6 +156,7 @@ namespace Hackathon_Project_GUI
             this.objekat4.TabIndex = 8;
             this.objekat4.TabStop = false;
             this.objekat4.UseWaitCursor = true;
+            this.objekat4.Click += new System.EventHandler(this.objekat4_Click);
             this.objekat4.MouseLeave += new System.EventHandler(this.progres1);
             // 
             // objekat5
