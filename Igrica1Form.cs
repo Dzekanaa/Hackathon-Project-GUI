@@ -300,7 +300,7 @@ namespace Hackathon_Project_GUI
             }
             else
             {
-                MessageBox.Show("Pogodili ste " + tacno + " od 9. Pokusajte ponovo!");
+                MessageBox.Show("Pogodili ste " + tacno + " od 12. Pokušajte ponovo!");
             }
         }
         
@@ -333,7 +333,6 @@ namespace Hackathon_Project_GUI
 
         private void progres3(object sender, DragEventArgs e)
         {
-            progres.Value += 10;
         }
 
         private void button2_Click(object sender, EventArgs e)
