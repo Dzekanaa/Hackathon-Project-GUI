@@ -10,12 +10,16 @@ using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class Form1 : Form
+    public partial class settingsForm : Form
     {
-        public Form1()
+        public settingsForm()
         {
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

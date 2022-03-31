@@ -1,7 +1,7 @@
 ﻿
 namespace Hackathon_Project_GUI
 {
-    partial class Igrica1Form
+    partial class igrica1Form
     {
         /// <summary>
         /// Required designer variable.
@@ -29,10 +29,17 @@ namespace Hackathon_Project_GUI
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // igrica1Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Name = "igrica1Form";
             this.Text = "Igrica1Form";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
