@@ -35,12 +35,14 @@ namespace Hackathon_Project_GUI
             // 
             // ugasiMuzikuButton
             // 
-            this.ugasiMuzikuButton.Location = new System.Drawing.Point(114, 70);
+            this.ugasiMuzikuButton.BackColor = System.Drawing.Color.Salmon;
+            this.ugasiMuzikuButton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.ugasiMuzikuButton.Location = new System.Drawing.Point(121, 66);
             this.ugasiMuzikuButton.Name = "ugasiMuzikuButton";
-            this.ugasiMuzikuButton.Size = new System.Drawing.Size(106, 37);
+            this.ugasiMuzikuButton.Size = new System.Drawing.Size(119, 42);
             this.ugasiMuzikuButton.TabIndex = 0;
-            this.ugasiMuzikuButton.Text = "ugasi muziku";
-            this.ugasiMuzikuButton.UseVisualStyleBackColor = true;
+            this.ugasiMuzikuButton.Text = "Ugasi muziku";
+            this.ugasiMuzikuButton.UseVisualStyleBackColor = false;
             this.ugasiMuzikuButton.Click += new System.EventHandler(this.button1_Click);
             // 
             // nazadButton
@@ -57,6 +59,7 @@ namespace Hackathon_Project_GUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(363, 333);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.ugasiMuzikuButton);

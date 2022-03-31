@@ -304,24 +304,19 @@ namespace Hackathon_Project_GUI
             }
         }
         
-
         //nebitno
-        int crveno = 0;
         private void progres1(object sender, EventArgs e)
         {
 
         }
-        int zuto = 0;
         private void progres2(object sender, EventArgs e)
         {
         }
-        int plavo = 0;
         private void progres3(object sender, EventArgs e)
         {
 
         }
         //nebitno
-        int br = 0;
         private void objekat1(object sender, EventArgs e)
         {
 

@@ -63,6 +63,7 @@ namespace Hackathon_Project_GUI
             // 
             // igriceButton
             // 
+
             this.igriceButton.BackColor = System.Drawing.Color.Transparent;
             this.igriceButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("igriceButton.BackgroundImage")));
             this.igriceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -70,6 +71,7 @@ namespace Hackathon_Project_GUI
             this.igriceButton.ForeColor = System.Drawing.Color.Transparent;
             this.igriceButton.Location = new System.Drawing.Point(154, 767);
             this.igriceButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
             this.igriceButton.Name = "igriceButton";
             this.igriceButton.Size = new System.Drawing.Size(180, 180);
             this.igriceButton.TabIndex = 2;
@@ -84,8 +86,10 @@ namespace Hackathon_Project_GUI
             this.mestaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mestaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mestaButton.ForeColor = System.Drawing.Color.Transparent;
+
             this.mestaButton.Location = new System.Drawing.Point(154, 437);
             this.mestaButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
             this.mestaButton.Name = "mestaButton";
             this.mestaButton.Size = new System.Drawing.Size(180, 180);
             this.mestaButton.TabIndex = 3;
@@ -93,6 +97,7 @@ namespace Hackathon_Project_GUI
             // 
             // pomocButton
             // 
+
             this.pomocButton.BackColor = System.Drawing.Color.Transparent;
             this.pomocButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pomocButton.BackgroundImage")));
             this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
@@ -100,6 +105,7 @@ namespace Hackathon_Project_GUI
             this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
             this.pomocButton.Location = new System.Drawing.Point(463, 437);
             this.pomocButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
             this.pomocButton.Name = "pomocButton";
             this.pomocButton.Size = new System.Drawing.Size(180, 180);
             this.pomocButton.TabIndex = 4;
@@ -113,6 +119,7 @@ namespace Hackathon_Project_GUI
             this.lokacijeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.lokacijeButton.Location = new System.Drawing.Point(463, 767);
             this.lokacijeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+
             this.lokacijeButton.Name = "lokacijeButton";
             this.lokacijeButton.Size = new System.Drawing.Size(180, 180);
             this.lokacijeButton.TabIndex = 5;
@@ -125,6 +132,7 @@ namespace Hackathon_Project_GUI
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(827, 1055);
+
             this.Controls.Add(this.lokacijeButton);
             this.Controls.Add(this.pomocButton);
             this.Controls.Add(this.mestaButton);
