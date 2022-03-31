@@ -81,7 +81,6 @@ namespace Hackathon_Project_GUI
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Red;
             this.pictureBox2.Location = new System.Drawing.Point(1, 356);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(305, 240);
             this.pictureBox2.TabIndex = 1;
@@ -93,7 +92,6 @@ namespace Hackathon_Project_GUI
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Yellow;
             this.pictureBox3.Location = new System.Drawing.Point(306, 356);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(305, 240);
             this.pictureBox3.TabIndex = 2;
@@ -104,7 +102,6 @@ namespace Hackathon_Project_GUI
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.pictureBox4.Location = new System.Drawing.Point(605, 356);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 3, 3, 3);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(305, 240);
             this.pictureBox4.TabIndex = 3;
