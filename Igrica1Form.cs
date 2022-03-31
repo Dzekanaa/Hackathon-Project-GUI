@@ -344,5 +344,10 @@ namespace Hackathon_Project_GUI
             igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
             igriceMeni.Show(); // pokazuje formu - igriceMeniForma
         }
+
+        private void objekat10_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
