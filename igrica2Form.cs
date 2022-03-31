@@ -16,5 +16,20 @@ namespace Hackathon_Project_GUI
         {
             InitializeComponent();
         }
+
+        private void igrica2Form_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox20_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dodirnuli ste zid! Kraj igre!");
+        }
+
+        private void pictureBox62_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Pobedili ste! Cestitam!");
+        }
     }
 }
