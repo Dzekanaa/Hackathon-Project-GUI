@@ -12,7 +12,7 @@ namespace Hackathon_Project_GUI
 {
     public partial class settingsForm : Form
     {
-        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
+        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\Programiranje\C#\Hackathon Project GUI\Resources\Frankie_MP3_320K_.wav");
         public settingsForm()
         {
             InitializeComponent();

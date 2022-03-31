@@ -16,14 +16,14 @@ namespace Hackathon_Project_GUI
         
         public PocetniMeniForm()
         {
-            /*static string filePath = Path.GetFullPath("Frankie_MP3_320K_.wav");
-            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(System.Media.SoundPlayer.SoundLocation);*/
+            string filePath = @"D:\Programiranje\C#\Hackathon Project GUI\Resources\Frankie_MP3_320K_.wav";
+            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(filePath);
 
             InitializeComponent();
 
             sp.PlayLooping();
 
-            //sp.Play();
+            sp.Play();
         }
 
         private void igriceButton_Click(object sender, EventArgs e)
