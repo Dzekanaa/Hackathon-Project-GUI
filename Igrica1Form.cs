@@ -294,13 +294,16 @@ namespace Hackathon_Project_GUI
             {
                 tacno++;
             }
-            if (tacno == 9)
+            if (tacno == 12)
             {
-                MessageBox.Show("Pogodili ste sve i pobedili! Kraj igre!");
+                MessageBox.Show("Pogodili ste sve! Kraj igre!");
             }
             else
             {
                 MessageBox.Show("Pogodili ste " + tacno + " od 12. Pokušajte ponovo!");
+                this.Hide();
+                igrica1Form igrica = new igrica1Form();
+                igrica.Show();
             }
         }
         

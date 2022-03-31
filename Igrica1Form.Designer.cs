@@ -270,6 +270,9 @@ namespace Hackathon_Project_GUI
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(911, 588);
+            this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.objekat12);
@@ -284,9 +287,6 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.objekat3);
             this.Controls.Add(this.objekat2);
             this.Controls.Add(this.objekat);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox4);
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "igrica1Form";
             this.Text = "Igrica1Form";
