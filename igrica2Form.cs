@@ -45,5 +45,12 @@ namespace Hackathon_Project_GUI
 
             }
         }
+
+        private void nazadButon_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            PocetniMeniForm pocetniMeni = new PocetniMeniForm();
+            pocetniMeni.Show();
+        }
     }
 }
