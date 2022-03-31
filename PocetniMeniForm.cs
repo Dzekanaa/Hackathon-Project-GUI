@@ -8,6 +8,10 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Reflection;
+using System.Resources;
+using System.Media;
+using System.Diagnostics;
 
 namespace Hackathon_Project_GUI
 {
@@ -16,16 +20,22 @@ namespace Hackathon_Project_GUI
         
         public PocetniMeniForm()
         {
-            string filePath = @"D:\Programiranje\C#\Hackathon Project GUI\Resources\Frankie_MP3_320K_.wav";
-            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(filePath);
+            /*string filePath = @"D:\Programiranje\C#\Hackathon Project GUI\Resources\Frankie_MP3_320K_.wav";
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer();
+            player.Stream = Properties.;
+            player.Play();*/
 
             InitializeComponent();
 
-            /*System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
+            Assembly assembly;
+            Stream soundStream;
+            SoundPlayer sp;
+            assembly = Assembly.GetExecutingAssembly();
+            sp = new SoundPlayer(assembly.GetManifestResourceStream
+                ("Hackathon_Project_GUI.muzikaZaHackathon.wav")); // uzima muziku iz resorsa iz adrese
+            sp.Play();
 
             sp.PlayLooping();
-
-            sp.Play();*/
         }
 
         private void igriceButton_Click(object sender, EventArgs e)

@@ -8,6 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="muzikaZaHackathon.wav" />
+    <None Remove="Resources\Frankie_MP3_320K_.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="muzikaZaHackathon.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
