@@ -34,9 +34,9 @@ namespace Hackathon_Project_GUI
             // 
             // ugasiMuzikuButton
             // 
-            this.ugasiMuzikuButton.Location = new System.Drawing.Point(113, 119);
+            this.ugasiMuzikuButton.Location = new System.Drawing.Point(114, 70);
             this.ugasiMuzikuButton.Name = "ugasiMuzikuButton";
-            this.ugasiMuzikuButton.Size = new System.Drawing.Size(106, 41);
+            this.ugasiMuzikuButton.Size = new System.Drawing.Size(106, 37);
             this.ugasiMuzikuButton.TabIndex = 0;
             this.ugasiMuzikuButton.Text = "ugasi muziku";
             this.ugasiMuzikuButton.UseVisualStyleBackColor = true;
