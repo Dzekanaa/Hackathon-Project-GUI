@@ -99,6 +99,7 @@ namespace Hackathon_Project_GUI
             this.lokacijeButton.TabIndex = 5;
             this.lokacijeButton.Text = "lokacije";
             this.lokacijeButton.UseVisualStyleBackColor = true;
+            this.lokacijeButton.Click += new System.EventHandler(this.lokacijeButton_Click);
             // 
             // PocetniMeniForm
             // 
@@ -113,7 +114,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
             this.Name = "PocetniMeniForm";
-            this.Text = "Form1"; 
+            this.Text = "Form1";
             this.ResumeLayout(false);
 
         }

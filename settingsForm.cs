@@ -12,6 +12,7 @@ namespace Hackathon_Project_GUI
 {
     public partial class settingsForm : Form
     {
+        System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
         public settingsForm()
         {
             InitializeComponent();
@@ -19,7 +20,7 @@ namespace Hackathon_Project_GUI
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            sp.Stop();
         }
     }
 }

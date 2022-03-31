@@ -7,19 +7,23 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Hackathon_Project_GUI
 {
     public partial class PocetniMeniForm : Form
     {
+        
         public PocetniMeniForm()
         {
+            /*static string filePath = Path.GetFullPath("Frankie_MP3_320K_.wav");
+            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(System.Media.SoundPlayer.SoundLocation);*/
+
             InitializeComponent();
-            System.Media.SoundPlayer sp = new System.Media.SoundPlayer(@"D:\doc\Downloads\Frankie_MP3_320K_.wav");
 
             sp.PlayLooping();
 
-            sp.Play();
+            //sp.Play();
         }
 
         private void igriceButton_Click(object sender, EventArgs e)
@@ -31,10 +35,17 @@ namespace Hackathon_Project_GUI
 
         private void settingsButton_Click(object sender, EventArgs e)
         {
-            /*this.Hide(); 
-            igriceMeniForm igriceMeniForma = new igriceMeniForm(); 
-            igriceMeniForma.Show(); */
+            this.Hide(); 
+            settingsForm podesavanja = new settingsForm(); 
+            podesavanja.Show(); 
             
+        }
+
+        private void lokacijeButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MapaForm mapForm = new MapaForm();
+            mapForm.Show();
         }
     }
 }
