@@ -9,14 +9,18 @@
 
   <ItemGroup>
     <None Remove="A-One-Way-Ticket-Too-Much_MP3_320K_.wav" />
+    <None Remove="muzika 1 glasna.wav" />
+    <None Remove="muzika 1.wav" />
+    <None Remove="muzika 2.wav" />
+    <None Remove="muzika1.wav" />
     <None Remove="muzika2.wav" />
     <None Remove="muzikaZaHackathon.wav" />
     <None Remove="Resources\Frankie_MP3_320K_.wav" />
   </ItemGroup>
 
   <ItemGroup>
+    <EmbeddedResource Include="muzika1.wav" />
     <EmbeddedResource Include="muzika2.wav" />
-    <EmbeddedResource Include="muzikaZaHackathon.wav" />
   </ItemGroup>
 
   <ItemGroup>

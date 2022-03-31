@@ -37,7 +37,7 @@ namespace Hackathon_Project_GUI
             // 
             // igrica1Button
             // 
-            this.igrica1Button.Location = new System.Drawing.Point(52, 287);
+            this.igrica1Button.Location = new System.Drawing.Point(66, 286);
             this.igrica1Button.Name = "igrica1Button";
             this.igrica1Button.Size = new System.Drawing.Size(110, 43);
             this.igrica1Button.TabIndex = 0;

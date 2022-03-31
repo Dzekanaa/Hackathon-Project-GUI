@@ -197,10 +197,9 @@ namespace Hackathon_Project_GUI
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox4.Location = new System.Drawing.Point(109, 508);
+            this.pictureBox4.Location = new System.Drawing.Point(105, 511);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(423, 10);
-
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -813,9 +812,7 @@ namespace Hackathon_Project_GUI
             // pictureBox61
             // 
             this.pictureBox61.BackColor = System.Drawing.Color.Black;
-
             this.pictureBox61.Location = new System.Drawing.Point(75, 489);
-
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(24, 22);
             this.pictureBox61.TabIndex = 60;
@@ -832,7 +829,6 @@ namespace Hackathon_Project_GUI
             this.pictureBox62.TabStop = false;
             this.pictureBox62.MouseEnter += new System.EventHandler(this.pictureBox62_MouseEnter);
             // 
-
             // pictureBox60
             // 
             this.pictureBox60.BackColor = System.Drawing.Color.Green;
@@ -872,15 +868,6 @@ namespace Hackathon_Project_GUI
             this.pictureBox65.TabIndex = 65;
             this.pictureBox65.TabStop = false;
             this.pictureBox65.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
-
-            // nazadButton
-            // 
-            this.nazadButton.Location = new System.Drawing.Point(12, 410);
-            this.nazadButton.Name = "nazadButton";
-            this.nazadButton.Size = new System.Drawing.Size(75, 23);
-            this.nazadButton.TabIndex = 62;
-            this.nazadButton.Text = "nazad";
-            this.nazadButton.UseVisualStyleBackColor = true;
             // 
             // igrica2Form
             // 
@@ -892,7 +879,6 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.pictureBox60);
-
             this.Controls.Add(this.pictureBox62);
             this.Controls.Add(this.pictureBox61);
             this.Controls.Add(this.pictureBox20);

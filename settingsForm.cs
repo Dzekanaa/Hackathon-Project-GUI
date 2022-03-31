@@ -22,6 +22,7 @@ namespace Hackathon_Project_GUI
 
         public string muzika= "Hackathon_Project_GUI.muzika2.wav";
         
+
         public settingsForm()
         {
             InitializeComponent();
@@ -33,17 +34,18 @@ namespace Hackathon_Project_GUI
             if (ugasiMuzikuButton.Text == "Ugasi muziku")
             {
                 ugasiMuzikuButton.Text = "Upali muziku";
-                ugasiMuzikuButton.BackColor = Color.LawnGreen;
+                ugasiMuzikuButton.BackColor = Color.Salmon;
                 sp.Stop();
             }
             else
             {
                 ugasiMuzikuButton.Text = "Ugasi muziku";
-                ugasiMuzikuButton.BackColor = Color.Salmon;
+                ugasiMuzikuButton.BackColor = Color.LawnGreen;
                 pustiPesmu();
             }
 
         }
+
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -65,13 +67,13 @@ namespace Hackathon_Project_GUI
 
         private void muzika1Button_Click(object sender, EventArgs e)
         {
-            muzika = "Hackathon_Project_GUI.muzika2.wav";
+            muzika = "Hackathon_Project_GUI.muzika1.wav";
             pustiPesmu();
         }
 
          private void muzika2button_Click(object sender, EventArgs e)
         {
-            muzika = "Hackathon_Project_GUI.muzikaZaHackathon.wav";
+            muzika = "Hackathon_Project_GUI.muzika2.wav";
             pustiPesmu();
         }
         
@@ -86,6 +88,10 @@ namespace Hackathon_Project_GUI
             sp.Play();
 
             sp.PlayLooping();
+        }
+
+        private void settingsForm_Load(object sender, EventArgs e)
+        {
         }
     }
 }

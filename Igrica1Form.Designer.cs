@@ -1,4 +1,3 @@
-﻿
 namespace Hackathon_Project_GUI
 {
     partial class igrica1Form
@@ -292,7 +291,6 @@ namespace Hackathon_Project_GUI
             this.Name = "igrica1Form";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Igrica1Form";
-            this.Load += new System.EventHandler(this.igrica1Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.objekat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
