@@ -31,6 +31,7 @@ namespace Hackathon_Project_GUI
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PocetniMeniForm));
             this.settingsButton = new System.Windows.Forms.Button();
             this.emergencyButton = new System.Windows.Forms.Button();
             this.igriceButton = new System.Windows.Forms.Button();
@@ -41,9 +42,10 @@ namespace Hackathon_Project_GUI
             // 
             // settingsButton
             // 
-            this.settingsButton.Location = new System.Drawing.Point(650, 10);
+            this.settingsButton.Location = new System.Drawing.Point(743, 13);
+            this.settingsButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.settingsButton.Name = "settingsButton";
-            this.settingsButton.Size = new System.Drawing.Size(60, 60);
+            this.settingsButton.Size = new System.Drawing.Size(69, 80);
             this.settingsButton.TabIndex = 0;
             this.settingsButton.Text = "settings";
             this.settingsButton.UseVisualStyleBackColor = true;
@@ -51,21 +53,27 @@ namespace Hackathon_Project_GUI
             // 
             // emergencyButton
             // 
-            this.emergencyButton.Location = new System.Drawing.Point(650, 80);
+            this.emergencyButton.Location = new System.Drawing.Point(743, 107);
+            this.emergencyButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.emergencyButton.Name = "emergencyButton";
-            this.emergencyButton.Size = new System.Drawing.Size(60, 60);
+            this.emergencyButton.Size = new System.Drawing.Size(69, 80);
             this.emergencyButton.TabIndex = 1;
             this.emergencyButton.Text = "emergency";
             this.emergencyButton.UseVisualStyleBackColor = true;
             // 
             // igriceButton
             // 
-            this.igriceButton.Location = new System.Drawing.Point(135, 575);
+            this.igriceButton.BackColor = System.Drawing.Color.Transparent;
+            this.igriceButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("igriceButton.BackgroundImage")));
+            this.igriceButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.igriceButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.igriceButton.ForeColor = System.Drawing.Color.Transparent;
+            this.igriceButton.Location = new System.Drawing.Point(154, 767);
+            this.igriceButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.igriceButton.Name = "igriceButton";
             this.igriceButton.Size = new System.Drawing.Size(180, 180);
             this.igriceButton.TabIndex = 2;
-            this.igriceButton.Text = "igrice";
-            this.igriceButton.UseVisualStyleBackColor = true;
+            this.igriceButton.UseVisualStyleBackColor = false;
             this.igriceButton.Click += new System.EventHandler(this.igriceButton_Click);
             // 
             // mestaButton
@@ -76,7 +84,8 @@ namespace Hackathon_Project_GUI
             this.mestaButton.Cursor = System.Windows.Forms.Cursors.Hand;
             this.mestaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.mestaButton.ForeColor = System.Drawing.Color.Transparent;
-            this.mestaButton.Location = new System.Drawing.Point(135, 305);
+            this.mestaButton.Location = new System.Drawing.Point(154, 437);
+            this.mestaButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.mestaButton.Name = "mestaButton";
             this.mestaButton.Size = new System.Drawing.Size(180, 180);
             this.mestaButton.TabIndex = 3;
@@ -84,35 +93,47 @@ namespace Hackathon_Project_GUI
             // 
             // pomocButton
             // 
-            this.pomocButton.Location = new System.Drawing.Point(405, 305);
+            this.pomocButton.BackColor = System.Drawing.Color.Transparent;
+            this.pomocButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pomocButton.BackgroundImage")));
+            this.pomocButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pomocButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.pomocButton.ForeColor = System.Drawing.Color.Transparent;
+            this.pomocButton.Location = new System.Drawing.Point(463, 437);
+            this.pomocButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.pomocButton.Name = "pomocButton";
             this.pomocButton.Size = new System.Drawing.Size(180, 180);
             this.pomocButton.TabIndex = 4;
-            this.pomocButton.Text = "pomoc";
-            this.pomocButton.UseVisualStyleBackColor = true;
+            this.pomocButton.UseVisualStyleBackColor = false;
             // 
             // lokacijeButton
             // 
-            this.lokacijeButton.Location = new System.Drawing.Point(405, 575);
+            this.lokacijeButton.BackColor = System.Drawing.Color.Transparent;
+            this.lokacijeButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("lokacijeButton.BackgroundImage")));
+            this.lokacijeButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lokacijeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lokacijeButton.Location = new System.Drawing.Point(463, 767);
+            this.lokacijeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.lokacijeButton.Name = "lokacijeButton";
             this.lokacijeButton.Size = new System.Drawing.Size(180, 180);
             this.lokacijeButton.TabIndex = 5;
-            this.lokacijeButton.Text = "lokacije";
-            this.lokacijeButton.UseVisualStyleBackColor = true;
+            this.lokacijeButton.UseVisualStyleBackColor = false;
             this.lokacijeButton.Click += new System.EventHandler(this.lokacijeButton_Click);
             // 
             // PocetniMeniForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(724, 941);
+            this.ClientSize = new System.Drawing.Size(827, 1055);
             this.Controls.Add(this.lokacijeButton);
             this.Controls.Add(this.pomocButton);
             this.Controls.Add(this.mestaButton);
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.ForeColor = System.Drawing.Color.Transparent;
+            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "PocetniMeniForm";
             this.Text = "Form1";
             this.ResumeLayout(false);

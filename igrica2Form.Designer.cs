@@ -90,6 +90,10 @@ namespace Hackathon_Project_GUI
             this.pictureBox59 = new System.Windows.Forms.PictureBox();
             this.pictureBox61 = new System.Windows.Forms.PictureBox();
             this.pictureBox62 = new System.Windows.Forms.PictureBox();
+            this.pictureBox60 = new System.Windows.Forms.PictureBox();
+            this.pictureBox63 = new System.Windows.Forms.PictureBox();
+            this.pictureBox64 = new System.Windows.Forms.PictureBox();
+            this.pictureBox65 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -151,6 +155,10 @@ namespace Hackathon_Project_GUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -186,9 +194,9 @@ namespace Hackathon_Project_GUI
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox4.Location = new System.Drawing.Point(107, 508);
+            this.pictureBox4.Location = new System.Drawing.Point(109, 508);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(425, 10);
+            this.pictureBox4.Size = new System.Drawing.Size(423, 10);
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -746,7 +754,7 @@ namespace Hackathon_Project_GUI
             // pictureBox61
             // 
             this.pictureBox61.BackColor = System.Drawing.Color.Black;
-            this.pictureBox61.Location = new System.Drawing.Point(99, 478);
+            this.pictureBox61.Location = new System.Drawing.Point(75, 489);
             this.pictureBox61.Name = "pictureBox61";
             this.pictureBox61.Size = new System.Drawing.Size(28, 30);
             this.pictureBox61.TabIndex = 60;
@@ -762,12 +770,56 @@ namespace Hackathon_Project_GUI
             this.pictureBox62.TabStop = false;
             this.pictureBox62.MouseEnter += new System.EventHandler(this.pictureBox62_MouseEnter);
             // 
+            // pictureBox60
+            // 
+            this.pictureBox60.BackColor = System.Drawing.Color.Green;
+            this.pictureBox60.Location = new System.Drawing.Point(546, 77);
+            this.pictureBox60.Name = "pictureBox60";
+            this.pictureBox60.Size = new System.Drawing.Size(10, 460);
+            this.pictureBox60.TabIndex = 62;
+            this.pictureBox60.TabStop = false;
+            this.pictureBox60.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
+            // 
+            // pictureBox63
+            // 
+            this.pictureBox63.BackColor = System.Drawing.Color.Red;
+            this.pictureBox63.Location = new System.Drawing.Point(83, 77);
+            this.pictureBox63.Name = "pictureBox63";
+            this.pictureBox63.Size = new System.Drawing.Size(10, 405);
+            this.pictureBox63.TabIndex = 63;
+            this.pictureBox63.TabStop = false;
+            this.pictureBox63.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
+            // 
+            // pictureBox64
+            // 
+            this.pictureBox64.BackColor = System.Drawing.Color.Blue;
+            this.pictureBox64.Location = new System.Drawing.Point(83, 77);
+            this.pictureBox64.Name = "pictureBox64";
+            this.pictureBox64.Size = new System.Drawing.Size(473, 10);
+            this.pictureBox64.TabIndex = 64;
+            this.pictureBox64.TabStop = false;
+            this.pictureBox64.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
+            // 
+            // pictureBox65
+            // 
+            this.pictureBox65.BackColor = System.Drawing.Color.Gold;
+            this.pictureBox65.Location = new System.Drawing.Point(83, 527);
+            this.pictureBox65.Name = "pictureBox65";
+            this.pictureBox65.Size = new System.Drawing.Size(473, 10);
+            this.pictureBox65.TabIndex = 65;
+            this.pictureBox65.TabStop = false;
+            this.pictureBox65.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
+            // 
             // igrica2Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(645, 593);
+            this.Controls.Add(this.pictureBox65);
+            this.Controls.Add(this.pictureBox64);
+            this.Controls.Add(this.pictureBox63);
+            this.Controls.Add(this.pictureBox60);
             this.Controls.Add(this.pictureBox62);
             this.Controls.Add(this.pictureBox61);
             this.Controls.Add(this.pictureBox20);
@@ -894,6 +946,10 @@ namespace Hackathon_Project_GUI
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox59)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox61)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox62)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox60)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox63)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox64)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox65)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -961,5 +1017,9 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox pictureBox59;
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.PictureBox pictureBox62;
+        private System.Windows.Forms.PictureBox pictureBox60;
+        private System.Windows.Forms.PictureBox pictureBox63;
+        private System.Windows.Forms.PictureBox pictureBox64;
+        private System.Windows.Forms.PictureBox pictureBox65;
     }
 }

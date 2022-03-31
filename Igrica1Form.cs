@@ -294,12 +294,14 @@ namespace Hackathon_Project_GUI
             {
                 tacno++;
             }
-            if (progres.Value == 200)
+            if (tacno == 9)
             {
-                MessageBox.Show("Pobedili ste!");
+                MessageBox.Show("Pogodili ste sve i pobedili! Kraj igre!");
             }
-            //ispisuje koliko tacnih
-            MessageBox.Show("Pogodili ste "+tacno+" od 12.");
+            else
+            {
+                MessageBox.Show("Pogodili ste " + tacno + " od 9. Pokusajte ponovo!");
+            }
         }
         
 

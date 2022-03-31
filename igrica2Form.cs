@@ -24,12 +24,17 @@ namespace Hackathon_Project_GUI
 
         private void pictureBox20_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("Dodirnuli ste zid! Kraj igre!");
+            MessageBox.Show("Dodirnuli ste zid! Pokusajte ponovo!");
         }
 
         private void pictureBox62_MouseEnter(object sender, EventArgs e)
         {
             MessageBox.Show("Pobedili ste! Cestitam!");
+        }
+
+        private void pictureBox60_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("Dodirnuli ste zid! Pokusajte ponovo!");
         }
     }
 }
