@@ -121,13 +121,19 @@
   <data name="mesta_dugme21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mesta_dugme23.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="mesta_dugme2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\mesta_dugme22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="parkingmesta1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkingmesta1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mesta_dugme" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mesta_dugme.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="mesta_dugme2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\mesta_dugme22.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="parkingmesta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\parkingmesta.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="parkingmesta2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\parkingmesta2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
