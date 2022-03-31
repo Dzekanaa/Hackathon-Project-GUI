@@ -26,5 +26,17 @@ namespace Hackathon_Project_GUI
             PocetniMeniForm pocetniMeni = new PocetniMeniForm();
             pocetniMeni.Show();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ParkingForm pocetniMeni = new ParkingForm();
+            pocetniMeni.Show();
+        }
     }
 }
