@@ -164,9 +164,10 @@ namespace Hackathon_Project_GUI
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Green;
-            this.pictureBox1.Location = new System.Drawing.Point(522, 134);
+            this.pictureBox1.Location = new System.Drawing.Point(457, 100);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(10, 384);
+            this.pictureBox1.Size = new System.Drawing.Size(9, 288);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -174,9 +175,10 @@ namespace Hackathon_Project_GUI
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Red;
-            this.pictureBox2.Location = new System.Drawing.Point(107, 94);
+            this.pictureBox2.Location = new System.Drawing.Point(94, 70);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(10, 384);
+            this.pictureBox2.Size = new System.Drawing.Size(9, 288);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -184,9 +186,10 @@ namespace Hackathon_Project_GUI
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox3.Location = new System.Drawing.Point(107, 93);
+            this.pictureBox3.Location = new System.Drawing.Point(94, 70);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(425, 10);
+            this.pictureBox3.Size = new System.Drawing.Size(372, 8);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             this.pictureBox3.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -197,6 +200,7 @@ namespace Hackathon_Project_GUI
             this.pictureBox4.Location = new System.Drawing.Point(109, 508);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(423, 10);
+
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
             this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -204,9 +208,10 @@ namespace Hackathon_Project_GUI
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Green;
-            this.pictureBox5.Location = new System.Drawing.Point(397, 260);
+            this.pictureBox5.Location = new System.Drawing.Point(347, 195);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox5.Size = new System.Drawing.Size(9, 69);
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
             this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -214,9 +219,10 @@ namespace Hackathon_Project_GUI
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Red;
-            this.pictureBox6.Location = new System.Drawing.Point(273, 385);
+            this.pictureBox6.Location = new System.Drawing.Point(239, 289);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(10, 93);
+            this.pictureBox6.Size = new System.Drawing.Size(9, 70);
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
             this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -224,9 +230,10 @@ namespace Hackathon_Project_GUI
             // pictureBox7
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox7.Location = new System.Drawing.Point(148, 260);
+            this.pictureBox7.Location = new System.Drawing.Point(130, 195);
+            this.pictureBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox7.Size = new System.Drawing.Size(9, 69);
             this.pictureBox7.TabIndex = 6;
             this.pictureBox7.TabStop = false;
             this.pictureBox7.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -234,9 +241,10 @@ namespace Hackathon_Project_GUI
             // pictureBox8
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Red;
-            this.pictureBox8.Location = new System.Drawing.Point(273, 260);
+            this.pictureBox8.Location = new System.Drawing.Point(239, 195);
+            this.pictureBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox8.Size = new System.Drawing.Size(9, 69);
             this.pictureBox8.TabIndex = 7;
             this.pictureBox8.TabStop = false;
             this.pictureBox8.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -244,9 +252,10 @@ namespace Hackathon_Project_GUI
             // pictureBox9
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox9.Location = new System.Drawing.Point(356, 219);
+            this.pictureBox9.Location = new System.Drawing.Point(312, 164);
+            this.pictureBox9.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox9.Size = new System.Drawing.Size(9, 69);
             this.pictureBox9.TabIndex = 8;
             this.pictureBox9.TabStop = false;
             this.pictureBox9.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -254,9 +263,10 @@ namespace Hackathon_Project_GUI
             // pictureBox10
             // 
             this.pictureBox10.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox10.Location = new System.Drawing.Point(439, 301);
+            this.pictureBox10.Location = new System.Drawing.Point(384, 226);
+            this.pictureBox10.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox10.Size = new System.Drawing.Size(9, 69);
             this.pictureBox10.TabIndex = 9;
             this.pictureBox10.TabStop = false;
             this.pictureBox10.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -264,9 +274,10 @@ namespace Hackathon_Project_GUI
             // pictureBox11
             // 
             this.pictureBox11.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox11.Location = new System.Drawing.Point(480, 301);
+            this.pictureBox11.Location = new System.Drawing.Point(420, 226);
+            this.pictureBox11.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(10, 94);
+            this.pictureBox11.Size = new System.Drawing.Size(9, 70);
             this.pictureBox11.TabIndex = 10;
             this.pictureBox11.TabStop = false;
             this.pictureBox11.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -274,9 +285,10 @@ namespace Hackathon_Project_GUI
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox12.Location = new System.Drawing.Point(148, 134);
+            this.pictureBox12.Location = new System.Drawing.Point(130, 100);
+            this.pictureBox12.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(10, 94);
+            this.pictureBox12.Size = new System.Drawing.Size(9, 70);
             this.pictureBox12.TabIndex = 11;
             this.pictureBox12.TabStop = false;
             this.pictureBox12.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -284,9 +296,10 @@ namespace Hackathon_Project_GUI
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Green;
-            this.pictureBox13.Location = new System.Drawing.Point(314, 177);
+            this.pictureBox13.Location = new System.Drawing.Point(275, 133);
+            this.pictureBox13.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(10, 92);
+            this.pictureBox13.Size = new System.Drawing.Size(9, 69);
             this.pictureBox13.TabIndex = 12;
             this.pictureBox13.TabStop = false;
             this.pictureBox13.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -294,9 +307,10 @@ namespace Hackathon_Project_GUI
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox14.Location = new System.Drawing.Point(398, 426);
+            this.pictureBox14.Location = new System.Drawing.Point(348, 320);
+            this.pictureBox14.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(9, 52);
+            this.pictureBox14.Size = new System.Drawing.Size(8, 39);
             this.pictureBox14.TabIndex = 13;
             this.pictureBox14.TabStop = false;
             this.pictureBox14.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -304,9 +318,10 @@ namespace Hackathon_Project_GUI
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Red;
-            this.pictureBox15.Location = new System.Drawing.Point(356, 385);
+            this.pictureBox15.Location = new System.Drawing.Point(312, 289);
+            this.pictureBox15.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox15.Size = new System.Drawing.Size(81, 8);
             this.pictureBox15.TabIndex = 14;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -314,9 +329,10 @@ namespace Hackathon_Project_GUI
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox16.Location = new System.Drawing.Point(190, 301);
+            this.pictureBox16.Location = new System.Drawing.Point(166, 226);
+            this.pictureBox16.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox16.Size = new System.Drawing.Size(81, 8);
             this.pictureBox16.TabIndex = 15;
             this.pictureBox16.TabStop = false;
             this.pictureBox16.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -324,9 +340,10 @@ namespace Hackathon_Project_GUI
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Red;
-            this.pictureBox17.Location = new System.Drawing.Point(231, 218);
+            this.pictureBox17.Location = new System.Drawing.Point(202, 164);
+            this.pictureBox17.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox17.Size = new System.Drawing.Size(81, 8);
             this.pictureBox17.TabIndex = 16;
             this.pictureBox17.TabStop = false;
             this.pictureBox17.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -334,9 +351,10 @@ namespace Hackathon_Project_GUI
             // pictureBox18
             // 
             this.pictureBox18.BackColor = System.Drawing.Color.Green;
-            this.pictureBox18.Location = new System.Drawing.Point(148, 468);
+            this.pictureBox18.Location = new System.Drawing.Point(130, 351);
+            this.pictureBox18.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox18.Size = new System.Drawing.Size(81, 8);
             this.pictureBox18.TabIndex = 17;
             this.pictureBox18.TabStop = false;
             this.pictureBox18.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -344,9 +362,10 @@ namespace Hackathon_Project_GUI
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox19.Location = new System.Drawing.Point(314, 177);
+            this.pictureBox19.Location = new System.Drawing.Point(275, 133);
+            this.pictureBox19.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox19.Name = "pictureBox19";
-            this.pictureBox19.Size = new System.Drawing.Size(135, 10);
+            this.pictureBox19.Size = new System.Drawing.Size(118, 8);
             this.pictureBox19.TabIndex = 18;
             this.pictureBox19.TabStop = false;
             this.pictureBox19.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -354,9 +373,10 @@ namespace Hackathon_Project_GUI
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox20.Location = new System.Drawing.Point(356, 218);
+            this.pictureBox20.Location = new System.Drawing.Point(312, 164);
+            this.pictureBox20.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(134, 10);
+            this.pictureBox20.Size = new System.Drawing.Size(117, 8);
             this.pictureBox20.TabIndex = 19;
             this.pictureBox20.TabStop = false;
             this.pictureBox20.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -364,9 +384,10 @@ namespace Hackathon_Project_GUI
             // pictureBox21
             // 
             this.pictureBox21.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox21.Location = new System.Drawing.Point(397, 134);
+            this.pictureBox21.Location = new System.Drawing.Point(347, 100);
+            this.pictureBox21.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox21.Size = new System.Drawing.Size(81, 8);
             this.pictureBox21.TabIndex = 20;
             this.pictureBox21.TabStop = false;
             this.pictureBox21.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -374,9 +395,10 @@ namespace Hackathon_Project_GUI
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox22.Location = new System.Drawing.Point(107, 385);
+            this.pictureBox22.Location = new System.Drawing.Point(94, 289);
+            this.pictureBox22.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox22.Size = new System.Drawing.Size(81, 8);
             this.pictureBox22.TabIndex = 21;
             this.pictureBox22.TabStop = false;
             this.pictureBox22.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -384,9 +406,10 @@ namespace Hackathon_Project_GUI
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox23.Location = new System.Drawing.Point(439, 426);
+            this.pictureBox23.Location = new System.Drawing.Point(384, 320);
+            this.pictureBox23.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox23.Size = new System.Drawing.Size(81, 8);
             this.pictureBox23.TabIndex = 22;
             this.pictureBox23.TabStop = false;
             this.pictureBox23.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -394,9 +417,10 @@ namespace Hackathon_Project_GUI
             // pictureBox24
             // 
             this.pictureBox24.BackColor = System.Drawing.Color.Green;
-            this.pictureBox24.Location = new System.Drawing.Point(273, 385);
+            this.pictureBox24.Location = new System.Drawing.Point(239, 289);
+            this.pictureBox24.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox24.Name = "pictureBox24";
-            this.pictureBox24.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox24.Size = new System.Drawing.Size(45, 8);
             this.pictureBox24.TabIndex = 23;
             this.pictureBox24.TabStop = false;
             this.pictureBox24.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -404,9 +428,10 @@ namespace Hackathon_Project_GUI
             // pictureBox25
             // 
             this.pictureBox25.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox25.Location = new System.Drawing.Point(273, 342);
+            this.pictureBox25.Location = new System.Drawing.Point(239, 256);
+            this.pictureBox25.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox25.Size = new System.Drawing.Size(45, 8);
             this.pictureBox25.TabIndex = 24;
             this.pictureBox25.TabStop = false;
             this.pictureBox25.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -414,9 +439,10 @@ namespace Hackathon_Project_GUI
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox26.Location = new System.Drawing.Point(356, 342);
+            this.pictureBox26.Location = new System.Drawing.Point(312, 256);
+            this.pictureBox26.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox26.Size = new System.Drawing.Size(45, 8);
             this.pictureBox26.TabIndex = 25;
             this.pictureBox26.TabStop = false;
             this.pictureBox26.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -424,9 +450,10 @@ namespace Hackathon_Project_GUI
             // pictureBox27
             // 
             this.pictureBox27.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox27.Location = new System.Drawing.Point(231, 134);
+            this.pictureBox27.Location = new System.Drawing.Point(202, 100);
+            this.pictureBox27.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox27.Name = "pictureBox27";
-            this.pictureBox27.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox27.Size = new System.Drawing.Size(46, 8);
             this.pictureBox27.TabIndex = 26;
             this.pictureBox27.TabStop = false;
             this.pictureBox27.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -434,9 +461,10 @@ namespace Hackathon_Project_GUI
             // pictureBox28
             // 
             this.pictureBox28.BackColor = System.Drawing.Color.Green;
-            this.pictureBox28.Location = new System.Drawing.Point(148, 260);
+            this.pictureBox28.Location = new System.Drawing.Point(130, 195);
+            this.pictureBox28.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox28.Name = "pictureBox28";
-            this.pictureBox28.Size = new System.Drawing.Size(93, 10);
+            this.pictureBox28.Size = new System.Drawing.Size(81, 8);
             this.pictureBox28.TabIndex = 27;
             this.pictureBox28.TabStop = false;
             this.pictureBox28.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -444,9 +472,10 @@ namespace Hackathon_Project_GUI
             // pictureBox29
             // 
             this.pictureBox29.BackColor = System.Drawing.Color.Green;
-            this.pictureBox29.Location = new System.Drawing.Point(190, 177);
+            this.pictureBox29.Location = new System.Drawing.Point(166, 133);
+            this.pictureBox29.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox29.Name = "pictureBox29";
-            this.pictureBox29.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox29.Size = new System.Drawing.Size(45, 8);
             this.pictureBox29.TabIndex = 28;
             this.pictureBox29.TabStop = false;
             this.pictureBox29.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -454,9 +483,10 @@ namespace Hackathon_Project_GUI
             // pictureBox30
             // 
             this.pictureBox30.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox30.Location = new System.Drawing.Point(148, 218);
+            this.pictureBox30.Location = new System.Drawing.Point(130, 164);
+            this.pictureBox30.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox30.Name = "pictureBox30";
-            this.pictureBox30.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox30.Size = new System.Drawing.Size(46, 8);
             this.pictureBox30.TabIndex = 29;
             this.pictureBox30.TabStop = false;
             this.pictureBox30.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -464,9 +494,10 @@ namespace Hackathon_Project_GUI
             // pictureBox31
             // 
             this.pictureBox31.BackColor = System.Drawing.Color.Red;
-            this.pictureBox31.Location = new System.Drawing.Point(480, 177);
+            this.pictureBox31.Location = new System.Drawing.Point(420, 133);
+            this.pictureBox31.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox31.Name = "pictureBox31";
-            this.pictureBox31.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox31.Size = new System.Drawing.Size(46, 8);
             this.pictureBox31.TabIndex = 30;
             this.pictureBox31.TabStop = false;
             this.pictureBox31.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -474,9 +505,10 @@ namespace Hackathon_Project_GUI
             // pictureBox32
             // 
             this.pictureBox32.BackColor = System.Drawing.Color.Green;
-            this.pictureBox32.Location = new System.Drawing.Point(397, 468);
+            this.pictureBox32.Location = new System.Drawing.Point(347, 351);
+            this.pictureBox32.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox32.Name = "pictureBox32";
-            this.pictureBox32.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox32.Size = new System.Drawing.Size(46, 8);
             this.pictureBox32.TabIndex = 31;
             this.pictureBox32.TabStop = false;
             this.pictureBox32.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -484,9 +516,10 @@ namespace Hackathon_Project_GUI
             // pictureBox33
             // 
             this.pictureBox33.BackColor = System.Drawing.Color.Green;
-            this.pictureBox33.Location = new System.Drawing.Point(314, 301);
+            this.pictureBox33.Location = new System.Drawing.Point(275, 226);
+            this.pictureBox33.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox33.Name = "pictureBox33";
-            this.pictureBox33.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox33.Size = new System.Drawing.Size(46, 8);
             this.pictureBox33.TabIndex = 32;
             this.pictureBox33.TabStop = false;
             this.pictureBox33.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -494,9 +527,10 @@ namespace Hackathon_Project_GUI
             // pictureBox34
             // 
             this.pictureBox34.BackColor = System.Drawing.Color.Red;
-            this.pictureBox34.Location = new System.Drawing.Point(148, 426);
+            this.pictureBox34.Location = new System.Drawing.Point(130, 320);
+            this.pictureBox34.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox34.Name = "pictureBox34";
-            this.pictureBox34.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox34.Size = new System.Drawing.Size(46, 8);
             this.pictureBox34.TabIndex = 33;
             this.pictureBox34.TabStop = false;
             this.pictureBox34.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -504,9 +538,10 @@ namespace Hackathon_Project_GUI
             // pictureBox35
             // 
             this.pictureBox35.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox35.Location = new System.Drawing.Point(314, 467);
+            this.pictureBox35.Location = new System.Drawing.Point(275, 350);
+            this.pictureBox35.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox35.Name = "pictureBox35";
-            this.pictureBox35.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox35.Size = new System.Drawing.Size(46, 8);
             this.pictureBox35.TabIndex = 34;
             this.pictureBox35.TabStop = false;
             this.pictureBox35.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -514,9 +549,10 @@ namespace Hackathon_Project_GUI
             // pictureBox36
             // 
             this.pictureBox36.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox36.Location = new System.Drawing.Point(439, 260);
+            this.pictureBox36.Location = new System.Drawing.Point(384, 195);
+            this.pictureBox36.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox36.Name = "pictureBox36";
-            this.pictureBox36.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox36.Size = new System.Drawing.Size(45, 8);
             this.pictureBox36.TabIndex = 35;
             this.pictureBox36.TabStop = false;
             this.pictureBox36.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -524,9 +560,10 @@ namespace Hackathon_Project_GUI
             // pictureBox37
             // 
             this.pictureBox37.BackColor = System.Drawing.Color.Green;
-            this.pictureBox37.Location = new System.Drawing.Point(107, 134);
+            this.pictureBox37.Location = new System.Drawing.Point(94, 100);
+            this.pictureBox37.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox37.Name = "pictureBox37";
-            this.pictureBox37.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox37.Size = new System.Drawing.Size(45, 8);
             this.pictureBox37.TabIndex = 36;
             this.pictureBox37.TabStop = false;
             this.pictureBox37.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -534,9 +571,10 @@ namespace Hackathon_Project_GUI
             // pictureBox38
             // 
             this.pictureBox38.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox38.Location = new System.Drawing.Point(273, 260);
+            this.pictureBox38.Location = new System.Drawing.Point(239, 195);
+            this.pictureBox38.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox38.Name = "pictureBox38";
-            this.pictureBox38.Size = new System.Drawing.Size(51, 10);
+            this.pictureBox38.Size = new System.Drawing.Size(45, 8);
             this.pictureBox38.TabIndex = 37;
             this.pictureBox38.TabStop = false;
             this.pictureBox38.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -544,9 +582,10 @@ namespace Hackathon_Project_GUI
             // pictureBox39
             // 
             this.pictureBox39.BackColor = System.Drawing.Color.Red;
-            this.pictureBox39.Location = new System.Drawing.Point(480, 301);
+            this.pictureBox39.Location = new System.Drawing.Point(420, 226);
+            this.pictureBox39.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox39.Name = "pictureBox39";
-            this.pictureBox39.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox39.Size = new System.Drawing.Size(46, 8);
             this.pictureBox39.TabIndex = 38;
             this.pictureBox39.TabStop = false;
             this.pictureBox39.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -554,9 +593,10 @@ namespace Hackathon_Project_GUI
             // pictureBox40
             // 
             this.pictureBox40.BackColor = System.Drawing.Color.Red;
-            this.pictureBox40.Location = new System.Drawing.Point(148, 342);
+            this.pictureBox40.Location = new System.Drawing.Point(130, 256);
+            this.pictureBox40.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox40.Name = "pictureBox40";
-            this.pictureBox40.Size = new System.Drawing.Size(52, 10);
+            this.pictureBox40.Size = new System.Drawing.Size(46, 8);
             this.pictureBox40.TabIndex = 39;
             this.pictureBox40.TabStop = false;
             this.pictureBox40.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -564,9 +604,10 @@ namespace Hackathon_Project_GUI
             // pictureBox41
             // 
             this.pictureBox41.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox41.Location = new System.Drawing.Point(314, 93);
+            this.pictureBox41.Location = new System.Drawing.Point(275, 70);
+            this.pictureBox41.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox41.Name = "pictureBox41";
-            this.pictureBox41.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox41.Size = new System.Drawing.Size(9, 38);
             this.pictureBox41.TabIndex = 40;
             this.pictureBox41.TabStop = false;
             this.pictureBox41.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -574,9 +615,10 @@ namespace Hackathon_Project_GUI
             // pictureBox42
             // 
             this.pictureBox42.BackColor = System.Drawing.Color.Green;
-            this.pictureBox42.Location = new System.Drawing.Point(397, 93);
+            this.pictureBox42.Location = new System.Drawing.Point(347, 70);
+            this.pictureBox42.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox42.Name = "pictureBox42";
-            this.pictureBox42.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox42.Size = new System.Drawing.Size(9, 38);
             this.pictureBox42.TabIndex = 41;
             this.pictureBox42.TabStop = false;
             this.pictureBox42.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -584,9 +626,10 @@ namespace Hackathon_Project_GUI
             // pictureBox43
             // 
             this.pictureBox43.BackColor = System.Drawing.Color.Red;
-            this.pictureBox43.Location = new System.Drawing.Point(231, 93);
+            this.pictureBox43.Location = new System.Drawing.Point(202, 70);
+            this.pictureBox43.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox43.Name = "pictureBox43";
-            this.pictureBox43.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox43.Size = new System.Drawing.Size(9, 38);
             this.pictureBox43.TabIndex = 42;
             this.pictureBox43.TabStop = false;
             this.pictureBox43.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -594,9 +637,10 @@ namespace Hackathon_Project_GUI
             // pictureBox44
             // 
             this.pictureBox44.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox44.Location = new System.Drawing.Point(231, 385);
+            this.pictureBox44.Location = new System.Drawing.Point(202, 289);
+            this.pictureBox44.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox44.Name = "pictureBox44";
-            this.pictureBox44.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox44.Size = new System.Drawing.Size(9, 38);
             this.pictureBox44.TabIndex = 43;
             this.pictureBox44.TabStop = false;
             this.pictureBox44.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -604,9 +648,10 @@ namespace Hackathon_Project_GUI
             // pictureBox45
             // 
             this.pictureBox45.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox45.Location = new System.Drawing.Point(314, 385);
+            this.pictureBox45.Location = new System.Drawing.Point(275, 289);
+            this.pictureBox45.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox45.Name = "pictureBox45";
-            this.pictureBox45.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox45.Size = new System.Drawing.Size(9, 38);
             this.pictureBox45.TabIndex = 44;
             this.pictureBox45.TabStop = false;
             this.pictureBox45.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -614,9 +659,10 @@ namespace Hackathon_Project_GUI
             // pictureBox46
             // 
             this.pictureBox46.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox46.Location = new System.Drawing.Point(148, 426);
+            this.pictureBox46.Location = new System.Drawing.Point(130, 320);
+            this.pictureBox46.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox46.Name = "pictureBox46";
-            this.pictureBox46.Size = new System.Drawing.Size(10, 52);
+            this.pictureBox46.Size = new System.Drawing.Size(9, 39);
             this.pictureBox46.TabIndex = 45;
             this.pictureBox46.TabStop = false;
             this.pictureBox46.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -624,9 +670,10 @@ namespace Hackathon_Project_GUI
             // pictureBox47
             // 
             this.pictureBox47.BackColor = System.Drawing.Color.Green;
-            this.pictureBox47.Location = new System.Drawing.Point(231, 301);
+            this.pictureBox47.Location = new System.Drawing.Point(202, 226);
+            this.pictureBox47.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox47.Name = "pictureBox47";
-            this.pictureBox47.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox47.Size = new System.Drawing.Size(9, 38);
             this.pictureBox47.TabIndex = 46;
             this.pictureBox47.TabStop = false;
             this.pictureBox47.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -634,9 +681,10 @@ namespace Hackathon_Project_GUI
             // pictureBox48
             // 
             this.pictureBox48.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox48.Location = new System.Drawing.Point(190, 134);
+            this.pictureBox48.Location = new System.Drawing.Point(166, 100);
+            this.pictureBox48.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox48.Name = "pictureBox48";
-            this.pictureBox48.Size = new System.Drawing.Size(10, 53);
+            this.pictureBox48.Size = new System.Drawing.Size(9, 40);
             this.pictureBox48.TabIndex = 47;
             this.pictureBox48.TabStop = false;
             this.pictureBox48.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -644,9 +692,10 @@ namespace Hackathon_Project_GUI
             // pictureBox49
             // 
             this.pictureBox49.BackColor = System.Drawing.Color.Red;
-            this.pictureBox49.Location = new System.Drawing.Point(190, 219);
+            this.pictureBox49.Location = new System.Drawing.Point(166, 164);
+            this.pictureBox49.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox49.Name = "pictureBox49";
-            this.pictureBox49.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox49.Size = new System.Drawing.Size(9, 38);
             this.pictureBox49.TabIndex = 48;
             this.pictureBox49.TabStop = false;
             this.pictureBox49.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -654,9 +703,10 @@ namespace Hackathon_Project_GUI
             // pictureBox50
             // 
             this.pictureBox50.BackColor = System.Drawing.Color.Green;
-            this.pictureBox50.Location = new System.Drawing.Point(273, 134);
+            this.pictureBox50.Location = new System.Drawing.Point(239, 100);
+            this.pictureBox50.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox50.Name = "pictureBox50";
-            this.pictureBox50.Size = new System.Drawing.Size(10, 53);
+            this.pictureBox50.Size = new System.Drawing.Size(9, 40);
             this.pictureBox50.TabIndex = 49;
             this.pictureBox50.TabStop = false;
             this.pictureBox50.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -664,9 +714,10 @@ namespace Hackathon_Project_GUI
             // pictureBox51
             // 
             this.pictureBox51.BackColor = System.Drawing.Color.Gold;
-            this.pictureBox51.Location = new System.Drawing.Point(231, 177);
+            this.pictureBox51.Location = new System.Drawing.Point(202, 133);
+            this.pictureBox51.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox51.Name = "pictureBox51";
-            this.pictureBox51.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox51.Size = new System.Drawing.Size(9, 38);
             this.pictureBox51.TabIndex = 50;
             this.pictureBox51.TabStop = false;
             this.pictureBox51.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -674,9 +725,10 @@ namespace Hackathon_Project_GUI
             // pictureBox52
             // 
             this.pictureBox52.BackColor = System.Drawing.Color.Green;
-            this.pictureBox52.Location = new System.Drawing.Point(356, 385);
+            this.pictureBox52.Location = new System.Drawing.Point(312, 289);
+            this.pictureBox52.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox52.Name = "pictureBox52";
-            this.pictureBox52.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox52.Size = new System.Drawing.Size(9, 38);
             this.pictureBox52.TabIndex = 51;
             this.pictureBox52.TabStop = false;
             this.pictureBox52.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -684,9 +736,10 @@ namespace Hackathon_Project_GUI
             // pictureBox53
             // 
             this.pictureBox53.BackColor = System.Drawing.Color.Red;
-            this.pictureBox53.Location = new System.Drawing.Point(356, 134);
+            this.pictureBox53.Location = new System.Drawing.Point(312, 100);
+            this.pictureBox53.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox53.Name = "pictureBox53";
-            this.pictureBox53.Size = new System.Drawing.Size(10, 53);
+            this.pictureBox53.Size = new System.Drawing.Size(9, 40);
             this.pictureBox53.TabIndex = 52;
             this.pictureBox53.TabStop = false;
             this.pictureBox53.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -694,9 +747,10 @@ namespace Hackathon_Project_GUI
             // pictureBox54
             // 
             this.pictureBox54.BackColor = System.Drawing.Color.Red;
-            this.pictureBox54.Location = new System.Drawing.Point(439, 426);
+            this.pictureBox54.Location = new System.Drawing.Point(384, 320);
+            this.pictureBox54.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox54.Name = "pictureBox54";
-            this.pictureBox54.Size = new System.Drawing.Size(10, 52);
+            this.pictureBox54.Size = new System.Drawing.Size(9, 39);
             this.pictureBox54.TabIndex = 53;
             this.pictureBox54.TabStop = false;
             this.pictureBox54.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -704,9 +758,10 @@ namespace Hackathon_Project_GUI
             // pictureBox55
             // 
             this.pictureBox55.BackColor = System.Drawing.Color.Red;
-            this.pictureBox55.Location = new System.Drawing.Point(356, 467);
+            this.pictureBox55.Location = new System.Drawing.Point(312, 350);
+            this.pictureBox55.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox55.Name = "pictureBox55";
-            this.pictureBox55.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox55.Size = new System.Drawing.Size(9, 38);
             this.pictureBox55.TabIndex = 54;
             this.pictureBox55.TabStop = false;
             this.pictureBox55.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -714,9 +769,10 @@ namespace Hackathon_Project_GUI
             // pictureBox56
             // 
             this.pictureBox56.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox56.Location = new System.Drawing.Point(480, 467);
+            this.pictureBox56.Location = new System.Drawing.Point(420, 350);
+            this.pictureBox56.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox56.Name = "pictureBox56";
-            this.pictureBox56.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox56.Size = new System.Drawing.Size(9, 38);
             this.pictureBox56.TabIndex = 55;
             this.pictureBox56.TabStop = false;
             this.pictureBox56.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -724,9 +780,10 @@ namespace Hackathon_Project_GUI
             // pictureBox57
             // 
             this.pictureBox57.BackColor = System.Drawing.Color.Red;
-            this.pictureBox57.Location = new System.Drawing.Point(397, 177);
+            this.pictureBox57.Location = new System.Drawing.Point(347, 133);
+            this.pictureBox57.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox57.Name = "pictureBox57";
-            this.pictureBox57.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox57.Size = new System.Drawing.Size(9, 38);
             this.pictureBox57.TabIndex = 56;
             this.pictureBox57.TabStop = false;
             this.pictureBox57.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -734,9 +791,10 @@ namespace Hackathon_Project_GUI
             // pictureBox58
             // 
             this.pictureBox58.BackColor = System.Drawing.Color.Red;
-            this.pictureBox58.Location = new System.Drawing.Point(439, 219);
+            this.pictureBox58.Location = new System.Drawing.Point(384, 164);
+            this.pictureBox58.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox58.Name = "pictureBox58";
-            this.pictureBox58.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox58.Size = new System.Drawing.Size(9, 38);
             this.pictureBox58.TabIndex = 57;
             this.pictureBox58.TabStop = false;
             this.pictureBox58.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -744,9 +802,10 @@ namespace Hackathon_Project_GUI
             // pictureBox59
             // 
             this.pictureBox59.BackColor = System.Drawing.Color.Green;
-            this.pictureBox59.Location = new System.Drawing.Point(480, 177);
+            this.pictureBox59.Location = new System.Drawing.Point(420, 133);
+            this.pictureBox59.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox59.Name = "pictureBox59";
-            this.pictureBox59.Size = new System.Drawing.Size(10, 51);
+            this.pictureBox59.Size = new System.Drawing.Size(9, 38);
             this.pictureBox59.TabIndex = 58;
             this.pictureBox59.TabStop = false;
             this.pictureBox59.MouseEnter += new System.EventHandler(this.pictureBox20_MouseEnter);
@@ -754,22 +813,26 @@ namespace Hackathon_Project_GUI
             // pictureBox61
             // 
             this.pictureBox61.BackColor = System.Drawing.Color.Black;
+
             this.pictureBox61.Location = new System.Drawing.Point(75, 489);
+
             this.pictureBox61.Name = "pictureBox61";
-            this.pictureBox61.Size = new System.Drawing.Size(28, 30);
+            this.pictureBox61.Size = new System.Drawing.Size(24, 22);
             this.pictureBox61.TabIndex = 60;
             this.pictureBox61.TabStop = false;
             // 
             // pictureBox62
             // 
             this.pictureBox62.BackColor = System.Drawing.Color.Black;
-            this.pictureBox62.Location = new System.Drawing.Point(512, 104);
+            this.pictureBox62.Location = new System.Drawing.Point(448, 78);
+            this.pictureBox62.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox62.Name = "pictureBox62";
-            this.pictureBox62.Size = new System.Drawing.Size(28, 30);
+            this.pictureBox62.Size = new System.Drawing.Size(24, 22);
             this.pictureBox62.TabIndex = 61;
             this.pictureBox62.TabStop = false;
             this.pictureBox62.MouseEnter += new System.EventHandler(this.pictureBox62_MouseEnter);
             // 
+
             // pictureBox60
             // 
             this.pictureBox60.BackColor = System.Drawing.Color.Green;
@@ -809,10 +872,21 @@ namespace Hackathon_Project_GUI
             this.pictureBox65.TabIndex = 65;
             this.pictureBox65.TabStop = false;
             this.pictureBox65.MouseEnter += new System.EventHandler(this.pictureBox60_MouseEnter);
+
+            // nazadButton
+            // 
+            this.nazadButton.Location = new System.Drawing.Point(12, 410);
+            this.nazadButton.Name = "nazadButton";
+            this.nazadButton.Size = new System.Drawing.Size(75, 23);
+            this.nazadButton.TabIndex = 62;
+            this.nazadButton.Text = "nazad";
+            this.nazadButton.UseVisualStyleBackColor = true;
+            this.nazadButton.Click += new System.EventHandler(this.nazadButton_Click);
+
             // 
             // igrica2Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.ClientSize = new System.Drawing.Size(645, 593);
@@ -820,6 +894,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox64);
             this.Controls.Add(this.pictureBox63);
             this.Controls.Add(this.pictureBox60);
+
             this.Controls.Add(this.pictureBox62);
             this.Controls.Add(this.pictureBox61);
             this.Controls.Add(this.pictureBox20);
@@ -882,6 +957,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.pictureBox9);
             this.Controls.Add(this.pictureBox7);
             this.HelpButton = true;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "igrica2Form";
             this.Text = "igrica2Form";
             this.Load += new System.EventHandler(this.igrica2Form_Load);
@@ -1017,9 +1093,13 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox pictureBox59;
         private System.Windows.Forms.PictureBox pictureBox61;
         private System.Windows.Forms.PictureBox pictureBox62;
+
         private System.Windows.Forms.PictureBox pictureBox60;
         private System.Windows.Forms.PictureBox pictureBox63;
         private System.Windows.Forms.PictureBox pictureBox64;
         private System.Windows.Forms.PictureBox pictureBox65;
+
+        private System.Windows.Forms.Button nazadButton;
+
     }
 }
