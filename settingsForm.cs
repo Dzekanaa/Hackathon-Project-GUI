@@ -25,5 +25,13 @@ namespace Hackathon_Project_GUI
         {
             sp.Stop();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide(); // sakriva ovu formu
+            PocetniMeniForm pocetniMeni = new PocetniMeniForm(); // kreira novu formu sa meni igricama
+            pocetniMeni.Show(); // pokazuje formu - igriceMeniForma
+            sp.Stop();
+        }
     }
 }
