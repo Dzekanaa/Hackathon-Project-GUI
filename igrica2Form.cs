@@ -31,5 +31,12 @@ namespace Hackathon_Project_GUI
         {
             MessageBox.Show("Pobedili ste! Cestitam!");
         }
+
+        private void nazadButton_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // sakriva ovu formu
+            igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+            igriceMeni.Show(); // pokazuje formu - igriceMeniForma
+        }
     }
 }

@@ -333,5 +333,12 @@ namespace Hackathon_Project_GUI
         {
             progres.Value += 10;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide(); // sakriva ovu formu
+            igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
+            igriceMeni.Show(); // pokazuje formu - igriceMeniForma
+        }
     }
 }

@@ -45,6 +45,7 @@ namespace Hackathon_Project_GUI
             this.objekat10 = new System.Windows.Forms.PictureBox();
             this.objekat11 = new System.Windows.Forms.PictureBox();
             this.objekat12 = new System.Windows.Forms.PictureBox();
+            this.nazadButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.objekat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -243,11 +244,22 @@ namespace Hackathon_Project_GUI
             this.objekat12.UseWaitCursor = true;
             this.objekat12.MouseLeave += new System.EventHandler(this.progres3);
             // 
+            // nazadButton
+            // 
+            this.nazadButton.Location = new System.Drawing.Point(12, 565);
+            this.nazadButton.Name = "nazadButton";
+            this.nazadButton.Size = new System.Drawing.Size(75, 23);
+            this.nazadButton.TabIndex = 17;
+            this.nazadButton.Text = "nazad";
+            this.nazadButton.UseVisualStyleBackColor = true;
+            this.nazadButton.Click += new System.EventHandler(this.button2_Click);
+            // 
             // igrica1Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(914, 600);
+            this.Controls.Add(this.nazadButton);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -304,5 +316,6 @@ namespace Hackathon_Project_GUI
         private System.Windows.Forms.PictureBox objekat10;
         private System.Windows.Forms.PictureBox objekat11;
         private System.Windows.Forms.PictureBox objekat12;
+        private System.Windows.Forms.Button nazadButton;
     }
 }
