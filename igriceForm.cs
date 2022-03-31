@@ -3,21 +3,18 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Linq;
 using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Hackathon_Project_GUI
 {
-    public partial class MapaForm : Form
+    public partial class igriceForm : Form
     {
-        public MapaForm()
+        public igriceForm()
         {
             InitializeComponent();
-        }
-
-        private void splitContainer1_SplitterMoved(object sender, SplitterEventArgs e)
-        {
-            
         }
     }
 }
