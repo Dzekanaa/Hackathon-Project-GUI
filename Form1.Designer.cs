@@ -1,7 +1,7 @@
 ﻿
 namespace Hackathon_Project_GUI
 {
-    partial class Form1
+    partial class PocetnaFormaMeni
     {
         /// <summary>
         ///  Required designer variable.
@@ -105,7 +105,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.igriceButton);
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
-            this.Name = "Form1";
+            this.Name = "PocetnaFormaMeni";
             this.Text = "Form1";
             this.ResumeLayout(false);
 
