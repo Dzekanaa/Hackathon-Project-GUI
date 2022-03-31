@@ -56,7 +56,6 @@ namespace Hackathon_Project_GUI
             this.Hide(); 
             settingsForm podesavanja = new settingsForm(); 
             podesavanja.Show(); 
-            
         }
 
         private void lokacijeButton_Click(object sender, EventArgs e)
