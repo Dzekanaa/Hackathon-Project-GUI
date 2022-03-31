@@ -68,12 +68,17 @@ namespace Hackathon_Project_GUI
             // 
             // mestaButton
             // 
+            this.mestaButton.BackColor = System.Drawing.Color.Transparent;
+            this.mestaButton.BackgroundImage = global::Hackathon_Project_GUI.Properties.Resources.mesta_dugme21;
+            this.mestaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.mestaButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.mestaButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.mestaButton.ForeColor = System.Drawing.Color.Transparent;
             this.mestaButton.Location = new System.Drawing.Point(135, 305);
             this.mestaButton.Name = "mestaButton";
             this.mestaButton.Size = new System.Drawing.Size(180, 180);
             this.mestaButton.TabIndex = 3;
-            this.mestaButton.Text = "mesta";
-            this.mestaButton.UseVisualStyleBackColor = true;
+            this.mestaButton.UseVisualStyleBackColor = false;
             // 
             // pomocButton
             // 
@@ -93,12 +98,12 @@ namespace Hackathon_Project_GUI
             this.lokacijeButton.Text = "lokacije";
             this.lokacijeButton.UseVisualStyleBackColor = true;
             // 
-            // Form1
+            // PocetnaFormaMeni
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(724, 1041);
+            this.ClientSize = new System.Drawing.Size(724, 941);
             this.Controls.Add(this.lokacijeButton);
             this.Controls.Add(this.pomocButton);
             this.Controls.Add(this.mestaButton);
@@ -107,6 +112,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.settingsButton);
             this.Name = "PocetnaFormaMeni";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.PocetnaFormaMeni_Load);
             this.ResumeLayout(false);
 
         }

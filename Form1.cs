@@ -17,5 +17,9 @@ namespace Hackathon_Project_GUI
             InitializeComponent();
         }
 
+        private void PocetnaFormaMeni_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
