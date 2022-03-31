@@ -113,8 +113,7 @@ namespace Hackathon_Project_GUI
             this.Controls.Add(this.emergencyButton);
             this.Controls.Add(this.settingsButton);
             this.Name = "PocetniMeniForm";
-            this.Text = "Form1";
-            this.Load += new System.EventHandler(this.PocetnaFormaMeni_Load);
+            this.Text = "Form1"; 
             this.ResumeLayout(false);
 
         }
