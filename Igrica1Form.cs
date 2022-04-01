@@ -294,13 +294,17 @@ namespace Hackathon_Project_GUI
             {
                 tacno++;
             }
-            if (tacno == 9)
+
+            if (tacno == 12)
             {
-                MessageBox.Show("Pogodili ste sve i pobedili! Kraj igre!");
+                MessageBox.Show("Pogodili ste sve! Kraj igre!");
             }
             else
             {
-                MessageBox.Show("Pogodili ste " + tacno + " od 9. Pokusajte ponovo!");
+                MessageBox.Show("Pogodili ste " + tacno + " od 12. Pokušajte ponovo!");
+                this.Hide();
+                igrica1Form igrica = new igrica1Form();
+                igrica.Show();
             }
         }
         
@@ -333,7 +337,6 @@ namespace Hackathon_Project_GUI
 
         private void progres3(object sender, DragEventArgs e)
         {
-            progres.Value += 10;
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -341,6 +344,11 @@ namespace Hackathon_Project_GUI
             this.Hide(); // sakriva ovu formu
             igriceMeniForm igriceMeni = new igriceMeniForm(); // kreira novu formu sa meni igricama
             igriceMeni.Show(); // pokazuje formu - igriceMeniForma
+        }
+
+        private void objekat10_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

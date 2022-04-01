@@ -67,5 +67,12 @@ namespace Hackathon_Project_GUI
             MouseEventArgs me = (MouseEventArgs)e;
             Point coordinates = me.Location;
         }
+
+        private void nazadButon_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            PocetniMeniForm pocetniMeni = new PocetniMeniForm();
+            pocetniMeni.Show();
+        }
     }
 }
