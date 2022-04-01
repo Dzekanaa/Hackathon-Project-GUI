@@ -37,7 +37,7 @@ namespace Hackathon_Project_GUI
             // 
             // igrica1Button
             // 
-            this.igrica1Button.Location = new System.Drawing.Point(66, 286);
+            this.igrica1Button.Location = new System.Drawing.Point(97, 289);
             this.igrica1Button.Name = "igrica1Button";
             this.igrica1Button.Size = new System.Drawing.Size(110, 43);
             this.igrica1Button.TabIndex = 0;
@@ -47,7 +47,7 @@ namespace Hackathon_Project_GUI
             // 
             // igrica2Button
             // 
-            this.igrica2Button.Location = new System.Drawing.Point(294, 286);
+            this.igrica2Button.Location = new System.Drawing.Point(311, 288);
             this.igrica2Button.Name = "igrica2Button";
             this.igrica2Button.Size = new System.Drawing.Size(109, 43);
             this.igrica2Button.TabIndex = 1;
@@ -57,7 +57,7 @@ namespace Hackathon_Project_GUI
             // 
             // igrica3Button
             // 
-            this.igrica3Button.Location = new System.Drawing.Point(524, 288);
+            this.igrica3Button.Location = new System.Drawing.Point(539, 288);
             this.igrica3Button.Name = "igrica3Button";
             this.igrica3Button.Size = new System.Drawing.Size(103, 42);
             this.igrica3Button.TabIndex = 2;

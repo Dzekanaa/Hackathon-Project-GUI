@@ -20,9 +20,8 @@ namespace Hackathon_Project_GUI
     {
         System.Media.SoundPlayer sp = new System.Media.SoundPlayer();
 
-        public string muzika= "Hackathon_Project_GUI.muzika2.wav";
+        public static string muzika= "Hackathon_Project_GUI.muzika1.wav"; // path za pesmu koja se menja
         
-
         public settingsForm()
         {
             InitializeComponent();
@@ -77,7 +76,7 @@ namespace Hackathon_Project_GUI
             pustiPesmu();
         }
         
-        public void pustiPesmu() 
+        public static void pustiPesmu() 
         {
             Assembly assembly;
             Stream soundStream;
